@@ -27,7 +27,7 @@ var n = function () {
     o['addEventListener']('click', function () {
         o['style']['animation'] = 'btnShake' + f + '\x201s\x20ease\x200s\x20infinite';
         setTimeout(function () {
-            window['location']['href'] = '/share.html';
+            window['location']['href'] = './share.html';
         }, 0x7d0);
     });
 };
