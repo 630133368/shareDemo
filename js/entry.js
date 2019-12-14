@@ -4,7 +4,7 @@ try {
 } catch (d) {
     c = ![];
 }
-var e = isDev ? 'src/assets/' : '';
+var e = c ? 'src/assets/' : '';
 var f = Math['floor'](Math['random']() * 0x4) + 0x1;
 function g() {
     var i = Math['floor'](Math['random']() * 0x1e) + 0x5a;
